@@ -1,4 +1,4 @@
 interface:
   display_name: "Requirement Fulfiller"
-  short_description: "Find CV gaps and stronger job-specific evidence"
-  default_prompt: "Use $unempluzzed-cv-check to compare my CV with this job posting and suggest the most useful additions."
+  short_description: "Blunt CV gap review with prioritized, concrete fixes"
+  default_prompt: "Use $unempluzzed-cv-check to give my CV a blunt, job-specific teardown with prioritized fixes and replacement lines."
