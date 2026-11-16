@@ -1,23 +1,32 @@
 # Devil’s Advisor
 
-A lightweight agent skill for blunt, creative advice on making a CV more convincing for a particular job.
+An agent skill for a substantive, blunt review of a CV against a particular job. It diagnoses the weak point, explains the role evidence, and prioritizes stronger positioning and relevant additions.
 
-Give your agent your CV and a posting. It identifies the weak spot, ranks changes, suggests relevant additions and asks a few useful follow-up questions. Suggestions are role-aware rather than a canned list of projects.
+## What it does
 
-It distinguishes supported reframing, experience to surface or create, and—when explicitly requested—exaggerated or invented claims. Hypothetical material is labeled so the user can see what goes beyond their supplied history. It does not promise an ATS result or knowledge of private employer filters.
+- Separates eligibility, extraction/search, AI-assisted assessment, human review and follow-up credibility.
+- Maps required, preferred and alternative qualifications to actual candidate evidence.
+- Distinguishes missing terminology from missing experience and overlooked work.
+- Uses dated recruiter, applicant and startup-operator reports with attribution and conflicting accounts preserved.
+- Suggests broad additions suited to the role; develops a detailed plan only when requested.
+- Separates supported changes, facts to confirm/develop and explicitly requested hypothetical options.
 
 ## Use it
 
-1. Clone this repository, or choose **Code → Download ZIP** and extract it.
-2. Install the folder following your agent’s skill instructions, or give it [SKILL.md](SKILL.md) directly.
-3. Provide your CV and the full posting, then try:
+Clone/download the repository and install the folder according to your agent’s skill instructions, or provide SKILL.md and its references directly. Give the agent your CV and the complete posting, then ask:
 
-> Use Devil’s Advisor to identify what my CV is missing for this role. Be blunt, suggest stronger positioning and a few relevant additions, and keep factual and hypothetical material clearly distinguished.
+> Use Devil’s Advisor for a deep review of my CV against this role. Explain the weak points, screening context and highest-impact changes. Keep suggestions broad until I choose a direction.
 
-Optional [Ashby source notes](references/ashby-notes.md) explain the limits of vendor-specific claims. The internal skill identifier remains `unempluzzed-cv-check`, so existing invocations keep working.
+For a shorter response, ask for a quick take. The internal identifier remains `unempluzzed-cv-check` for compatibility.
+
+## Evidence and limits
+
+The packaged research was gathered on 16 November 2026, primarily from 2025–2026 public discussions. It prioritizes firsthand practitioner and applicant reports rather than vendor marketing. Many authors are pseudonymous and their roles are self-described. Reports describe particular experiences; they do not establish how every employer hires, prove hidden ranking criteria or validate a universal ATS score.
+
+See [hiring reports](references/hiring-reports.md), the [source ledger](references/evidence-ledger.json) and the [review framework](references/review-framework.md). Existing Ashby capability notes are secondary context, not independent evidence of employer adoption. No sources in this pack prove that React versus React.js causes rejection.
 
 ## Privacy and cost
 
-This repository contains instructions, not an upload service. Your agent and model provider process documents under their own settings. No separate API key or service is required; your agent’s usual usage costs may apply.
+This is an instruction package, not an upload service. Your agent/provider handles documents under its own settings and usual usage costs. The skill does not submit applications or contact employers.
 
 Created for [Unempluzzed](https://unempluzzed.com).
