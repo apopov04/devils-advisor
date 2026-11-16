@@ -8,7 +8,7 @@ Give your agent your CV and a job posting. It identifies the most consequential 
 - Common expectations, clearly marked as inferred.
 - Standout evidence worth highlighting for this particular role.
 - Before/after lines grounded in your experience, useful cuts, and focused questions that unlock stronger edits.
-- A concrete proof sprint when the CV is thin: what to build, what counts as finished, and what evidence to keep.
+- Cheeky, role-specific project ideas when the CV is thin, followed by a concrete plan: what to build, what counts as finished, and what evidence to keep.
 
 It does not submit applications, invent qualifications or claim to reproduce an employer’s private filters.
 
