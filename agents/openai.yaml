@@ -1,4 +1,4 @@
 interface:
-  display_name: "Requirement Fulfiller"
-  short_description: "Blunt CV gap review with prioritized, concrete fixes"
-  default_prompt: "Use $unempluzzed-cv-check to give my CV a blunt, job-specific teardown with prioritized fixes and replacement lines."
+  display_name: "Devil’s Advisor"
+  short_description: "Blunt, creative CV advice for a particular job"
+  default_prompt: "Use $unempluzzed-cv-check to identify what my CV is missing and suggest stronger positioning and role-specific additions."
