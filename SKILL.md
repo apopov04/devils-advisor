@@ -3,7 +3,7 @@ name: unempluzzed-cv-check
 description: Compare a candidate's CV with a specific job posting to find missing requirements, terminology mismatches, relevant unstated expectations, and standout evidence worth adding. Suggest concise, evidence-backed changes; do not predict an ATS result. Use for job-specific CV gap checks rather than generic resume formatting or recruiter-side candidate ranking.
 ---
 
-# Unempluzzed CV Check
+# Requirement Fulfiller
 
 Help a job seeker answer: **What useful information is missing from my CV for this particular role?** Produce a short, prioritized set of additions and wording changes. This is a candidate's editing aid, not a hiring evaluation.
 
